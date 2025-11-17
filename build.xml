@@ -250,7 +250,6 @@
             </manifest>
             <fileset dir="${apidoc.dir}">
                 <include name="**" />
-
             </fileset>
         </jar>
 
@@ -274,7 +273,6 @@
                 <include name="**/*.java" />
             </fileset>
         </jar>
-
         <property name="dist.already.run" value="true" />
     </target>
 
