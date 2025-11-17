@@ -252,7 +252,6 @@
                 <include name="**" />
             </fileset>
         </jar>
-
         <jar jarfile="${dist.dir}/${jar.sources.name}" >
             <manifest>
                 <section name="org/marc4j">
